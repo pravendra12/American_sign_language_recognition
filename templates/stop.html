@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+  <link
+    rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+  />
+  <title>American Sign language Detection</title>
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+    crossorigin="anonymous"
+  />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Mukta&display=swap"
+    rel="stylesheet"
+  />
+  <style>
+    h2 {
+      padding-bottom: 20px;
+      font-weight: 600;
+      font-size: 3.2em;
+    }
+
+    .body_ {
+      background-color: lightblue;
+    }
+
+    .item {
+      text-align: center;
+      font-family: "Bungee Spice", cursive;
+      font-size: 40px;
+      padding-bottom: 15px;
+      padding-top: 10px;
+    }
+
+    .container {
+      font-family: "Mukta", sans-serif;
+      margin: 20px;
+    }
+
+    .ins {
+      font-family: "Mukta", sans-serif;
+      font-weight: bold;
+      font-size: 3rem;
+      margin-left: 20px;
+      text-align: center;
+    }
+
+    .instructions {
+      font-size: 1.2rem;
+      margin-left: 20px;
+      font-size: 20px;
+      line-height: 25px;
+    }
+
+    
+
+    .image1 {
+      width: 730px;
+      height: 450px;
+      margin-left: 20px;
+    }
+
+    ul {
+      border: 2px solid black;
+      margin-left: 20px;
+    }
+
+   
+    .btn-stop {
+      display: inline-block;
+      width: 20%;
+      margin-left: 600px;
+    }
+    .btn-start {
+      display: inline-block;
+      width: 20%;
+      margin-right: 480px;
+    }
+
+    .container {
+      /* display: inline-block; */
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  </style>
+  <body class="body_">
+    <div >
+      <h1 class="item">American Sign Language Recognition</h1>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-6">
+        <form
+          class="form-inline"
+          action="/stop"
+          method="post"
+          enctype="multipart/form-data"
+        >
+          <input type="submit" class="btn btn-primary btn-stop" value="Stop" />
+        </form>
+      </div>
+      <div class="col-lg-6">
+        <form
+          class="form-inline"
+          action="/start"
+          method="post"
+          enctype="multipart/form-data"
+        >
+          <input
+            type="submit"
+            class="btn btn-secondary btn-start"
+            value="Start"
+          />
+        </form>
+      </div>
+      <br />
+    </div>
+
+    
+
+    <h2 class="ins">Instruction</h2>
+    <div class="container">
+      <ul>
+        <li>
+          <h4 class="instructions">
+            To learn some alphabets of American sign language click on the
+            <a
+              href="https://en.wikipedia.org/wiki/American_Sign_Language"
+              target="_blank"
+            >
+              link.</a
+            >
+          </h4>
+        </li>
+        <li>
+          <h4 class="instructions">
+            To recognize a sign, hold your hand in front of the camera and sign
+            the letter
+          </h4>
+        </li>
+        <li>
+          <h4 class="instructions">
+            The recognized letters will be displayed along with the bounding
+            box.
+          </h4>
+        </li>
+        <li>
+          <h4 class="instructions">
+            If the web app does not recognize the sign correctly, try again.
+          </h4>
+        </li>
+      </ul>
+
+      <img
+        class="image1"
+        src="https://drive.google.com/uc?export=view&id=1etJyNjGPC9jS5cj49hJGZkDb7jv-Y6Q_"
+        alt=""
+      />
+
+     
+      </div>
+    </div>
+  </body>
+</html>
