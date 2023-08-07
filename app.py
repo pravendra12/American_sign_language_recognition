@@ -8,7 +8,7 @@ import numpy as np
 app=Flask(__name__)
 
 global model 
-model = load_model(r"C:\Users\prave\Documents\Data Science\Projects\SLR\ASL_Real_Time_Detection\model1.h5", compile=False)
+model = load_model("model1.h5", compile=False)
 
 global predicted_character
 predicted_character = ''
