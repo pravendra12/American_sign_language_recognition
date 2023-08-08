@@ -18,5 +18,14 @@ The images were imported and then using Google's Mediapipe Framework, the hand l
 ## Model building and training. 
 An artificial neural network was used for the classification of various signs. Hyperparameter tuning was done in order to get the optimized number of units per layer for maximum accuracy. Based on the results of hyperparameter tuning, a neural network with an input layer containing 384 units, a hidden layer containing 320 units, and an output layer containing 37 units was chosen. The model was then trained for 40 epochs.
 
+<p align="center">
+    <img width="600" src="https://github.com/pravendra12/American_sign_language_recognition/assets/105543056/1ec4d5e0-a749-4ce1-8671-77a2fc54a467" alt="Neural Network schematic">
+</p>
+
+
 ## Real-time application. 
-The model was deployed to the web using Flask for real-time application.
+The model was deployed to the web using Flask for real-time application. Below is the snapshot of the webpage
+
+<p align="center">
+    <img width="600" src="https://github.com/pravendra12/American_sign_language_recognition/assets/105543056/75e02f89-f7e9-45ac-ba9a-f840367392ef" alt="real time detection">
+</p>
