@@ -1,7 +1,9 @@
-# American_sign_language_recognition
+# American Sign Language Recognition
 <p align="center">
     <img width="600" src="https://github.com/pravendra12/American_sign_language_recognition/assets/105543056/738f3f2d-020e-40f1-bffb-ff7d7a836dbb" alt="ASL">
 </p>
+<br>
+To learn more about American Sign Language - https://en.wikipedia.org/wiki/American_Sign_Language
 <br>
 The process followed during the building of the recognition system can be summarized as follows:
 
