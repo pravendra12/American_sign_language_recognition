@@ -32,3 +32,5 @@ The model was deployed to the web using Flask for real-time application. Below i
 <p align="center">
     <img width="600" src="https://github.com/pravendra12/American_sign_language_recognition/assets/105543056/75e02f89-f7e9-45ac-ba9a-f840367392ef" alt="real time detection">
 </p>
+<br>
+To use the webpage, download webapp folder and run the app.py file.
