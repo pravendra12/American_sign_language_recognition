@@ -5,6 +5,7 @@
 <br>
 To learn more about American Sign Language - https://en.wikipedia.org/wiki/American_Sign_Language
 <br>
+<br>
 The process followed during the building of the recognition system can be summarized as follows:
 
 ## Data collection. 
